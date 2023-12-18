@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.parent{
+    width: 100%;
+    
+    background-color:plum;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: repeat(3,200px);
+    gap: 10px 10px;
+}
+.div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.one{
+    background-color: black;
+    
+}
+.tow{
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.three{
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.four{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.five{
+    background-color: blueviolet;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.six{
+    background-color: black;
+    grid-column-start: 2;
+    grid-column-end: 4;
+  
+}
+.seven{
+    background-color: blueviolet;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+    
+    
+}
+.eight{
+    background-color: green;
+    padding-top: 30px;
+}
+.nine{
+    background-color: greenyellow;  
+}
